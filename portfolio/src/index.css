@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 40px;
+
+}
+.nav_header p{
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
+.nav_links{
+  display: flex;
+}
+.nav_links li{
+  padding: 0px 10px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.nav_links li a{
+  text-decoration: none;
+  color: black;
+}
+.nav_links svg{
+  padding: 10px 0px;
+}
+.page_pad{
+  padding: 0px 160px;
+}
+.card_style{
+  width: 130px;
+  padding: 5px;
+}
+.card-body p{
+  font-size: 10px;
+  
+}
+.skill{
+  background-color: rgb(255, 255, 255);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -78,7 +78,7 @@ const Homepage = () => {
           </div>
         </div>
         <h2 className='text-start skill-head'>PROJECTS</h2>
-        <div className='d-flex skill my-5 flex-wrap justify-content-center rounded-4 p-5'>
+        <div className='d-flex skill my-5 flex-wrap justify-content-center rounded-5 px-3 py-5'>
           <div className='spice'>
             <div className='spice_card rounded-5'>
               <img src={abc} alt='' className='spice_image  rounded-5' />

@@ -21,9 +21,9 @@ import em from "../assets/em.png";
 import tw from "../assets/tw.png";
 import gh from "../assets/gh.png";
 
-const Homepage = () => {
+const Homepage = (props) => {
   return (
-    <StyledBg>
+    <StyledBg theme={props.theme}>
       <div>
         <StyledBlackHead className="pt-5  home_head_text">Front-end Developer</StyledBlackHead>
         <StyledBlackSub className="p-3 home_sub_text">
@@ -43,8 +43,8 @@ const Homepage = () => {
             technologies. Aiming to leverage my skills to successfully fill the
             front-end engineering role at your company.
           </StyledWhiteSub>
-          <button class="button-21">Resume</button>
-          <button class="button-21">Contact Me</button>
+          <button className="button-21">Resume</button>
+          <button className="button-21">Contact Me</button>
         </div>
       </div>
       <div id="about" className="page_pad py-5">
@@ -86,42 +86,42 @@ const Homepage = () => {
               <img src={abc} alt="" className="spice_image  rounded-5" />
               <div className="middle  rounded-5">
                 <p className="spice_text"> Training Schools </p>
-                <button class="button-21">visit website</button>
+                <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Family Get-Together </p>
-                <button class="button-21">visit website</button>
+                <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Birthday parties </p>
-                <button class="button-21">visit website</button>
+                <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Outdoor Parties </p>
-                <button class="button-21">visit website</button>
+                <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Wedding Parties </p>
-                <button class="button-21">visit website</button>
+                <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Holiday Celebrations </p>
-                <button class="button-21">visit website</button>
+                <button className="button-21">visit website</button>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@ const Homepage = () => {
           I’m always open to discussing product design work or partnership
           opportunities.
         </StyledBlackSub>
-        <button class="button-80">Start a conversation</button>
+        <button className="button-80">Start a conversation</button>
       </div>
       <div className="footer">
         <div>

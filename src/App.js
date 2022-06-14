@@ -3,17 +3,19 @@ import Navbar from "./components/navbar";
 import React from "react";
 import "./App.css";
 
+
 function App() {
-  const [darkMode, setDarkMode] = React.useState("true");
+  const [darkMode, setDarkMode] = React.useState(true);
 
   function toggleDarkMode() {
-    setDarkMode((prevState) => !prevState);
+    setDarkMode(prevState => !prevState);
+    console.log(darkMode)
+    
   }
   return (
     <div className="App">
-      <Navbar toggle={toggleDarkMode} />
-
-      <Homepage />
+      <Navbar toggle={toggleDarkMode} theme={darkMode} />
+      <Homepage theme={darkMode} />
     </div>
   );
 }

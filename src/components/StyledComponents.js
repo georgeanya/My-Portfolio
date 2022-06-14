@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledBg = styled.div`
-  background-color: gray;
+  background-color: ${(props) => (props.theme ? 'white' : 'grey')};
 `;
 export const StyledNavLink = styled.a`
   text-decoration: none;

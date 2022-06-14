@@ -1,27 +1,28 @@
 import React from "react";
+import { StyledBg, StyledNavLink } from "./StyledComponents";
 
 const Navbar = () => {
   return (
-    <div className='navbar_'>
+    <StyledBg className='navbar_'>
       <ul className='nav'>
         <div className='nav_header'>
           <h1 className="nav_header_text">thegeorgeanya</h1>
         </div>
         <div className='nav_links'>
           <li>
-            <a href='default.asp'>HOME</a>
+            <StyledNavLink href='default.asp'>HOME</StyledNavLink>
           </li>
           <li>
-            <a href='news.asp'>ABOUT</a>
+            <StyledNavLink href='news.asp'>ABOUT</StyledNavLink>
           </li>
           <li>
-            <a href='contact.asp'>SKILLS</a>
+            <StyledNavLink href='contact.asp'>SKILLS</StyledNavLink>
           </li>
           <li>
-            <a href='about.asp'>PROJECTS</a>
+            <StyledNavLink href='about.asp'>PROJECTS</StyledNavLink>
           </li>
           <li>
-            <a href='news.asp'>CONTACT</a>
+            <StyledNavLink href='news.asp'>CONTACT</StyledNavLink>
           </li>
         </div>
         <div className='nav_moon pt-3'>
@@ -36,7 +37,7 @@ const Navbar = () => {
           </svg>
         </div>
       </ul>
-    </div>
+    </StyledBg>
   );
 };
 

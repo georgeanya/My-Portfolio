@@ -140,12 +140,7 @@ body {
   justify-content: space-around;
   padding: 20px 40px;
 }
-.nav_header p {
-  font-size: 30px;
-  font-weight: 500;
-  padding: 0px;
-  margin: 0px;
-}
+
 .nav_links {
   display: flex;
 }
@@ -156,10 +151,7 @@ body {
   align-items: center;
   font-family: 'Europa', sans-serif;
 }
-.nav_links li a {
-  text-decoration: none;
-  color: black;
-}
+
 .nav_links svg {
   padding: 10px 0px;
 }

@@ -2,11 +2,12 @@ import React from "react";
 import { StyledBg, StyledNavLink } from "./StyledComponents";
 
 const Navbar = (props) => {
+  console.log(props.theme)
   return (
     <StyledBg theme={props.theme} className="navbar_">
       <ul className="nav">
         <div className="nav_header">
-          <h1 className="nav_header_text">thegeorgeanya</h1>
+          <h2 className="nav_header_text">thegeorgeanya</h2>
         </div>
         <div className="nav_links">
           <li>
@@ -29,8 +30,8 @@ const Navbar = (props) => {
           {props.theme ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              width="25"
+              height="25"
               fill="currentColor"
               className="bi bi-moon"
               viewBox="0 0 16 16"
@@ -41,8 +42,8 @@ const Navbar = (props) => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
+              width="25"
+              height="25"
               fill="currentColor"
               className="bi bi-sun"
               viewBox="0 0 16 16"

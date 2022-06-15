@@ -9,7 +9,6 @@ function App() {
 
   function toggleDarkMode() {
     setDarkMode(prevState => !prevState);
-    console.log(darkMode)
     
   }
   return (

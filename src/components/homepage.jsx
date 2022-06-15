@@ -7,6 +7,7 @@ import abc from "../assets/abc.png";
 import gpt3 from "../assets/gpt3.png";
 import george from "../assets/avatar.svg";
 import hero from "../assets/hero.svg";
+import hero1 from "../assets/hero1.svg";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import js from "../assets/js.png";
@@ -31,7 +32,7 @@ const Homepage = (props) => {
         </StyledBlackSub>
         <img src={george} alt="" width="210px" className="rounded-circle m-5" />
       </div>
-      <img src={hero} alt="" className="mt-5 hero" />
+      <img theme={props.theme} src={props.theme ? hero : hero1} alt="" className="mt-5 hero" />
       <div id="about" className="about-me">
         <div className="about-me-text">
           <StyledWhiteHead className="about-me-content-text">

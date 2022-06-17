@@ -13,11 +13,11 @@ body {
   background: #fff;
   backface-visibility: hidden;
   border-radius: 100px;
-  border: solid #7510f7;
+  border: solid #222;
   
   border-width: .125rem;
   box-sizing: border-box;
-  color: #7510f7;
+  color: #222;
   cursor: pointer;
   display: inline-block;
   font-family: Circular,Helvetica,sans-serif;
@@ -79,7 +79,7 @@ body {
   border-width: 0;
   box-shadow: none;
   box-sizing: border-box;
-  color: #7510f7;
+  color: #222;
   cursor: pointer;
   display: inline-flex;
   font-family: 'europa',sans-serif;
@@ -195,7 +195,7 @@ code {
     monospace;
 }
 .about-me {
-  background-color: rgb(117, 16, 247);
+  background-color: #222;
   padding: 9rem 15%;
 }
 .about-me-text {
@@ -210,7 +210,6 @@ code {
 }
 .home_head_text {
   font-family: 'eurostilebold', sans-serif;
-  color: rgb(20, 28, 58);
   font-weight: 800;
   font-size: 48px;
 }
@@ -221,12 +220,12 @@ code {
 }
 .nav_header_text{
   font-family: 'europa', sans-serif;
-  color: #7510f7 ;
+  color: #222 ;
   font-weight: 800;
   --bs-nav-link-disabled-color: color: 7510f7;
 }
 .nav_moon{
-  color: #7510f7 ;
+  color: #222 ;
   cursor: pointer;
   
 
@@ -279,7 +278,7 @@ code {
   box-pack: center;
   justify-content: center;
   margin: 1rem;
-  background-color: #7510f7;
+  background-color: #222;
   max-width: 300px;
   
 }
@@ -295,12 +294,12 @@ code {
   text-align: center;
   
   color: white;
-  background-color: #7510f7;visibility: none; opacity: 0;
+  background-color: #222;visibility: none; opacity: 0;
 }
 
 .spice_card:hover {
   opacity: 1;
-  color: #7510f7;
+  color: #222;
 }
 .middle:hover{
   opacity: 1;
@@ -319,7 +318,7 @@ code {
   align-self: center;
 }
 .footer{
-  background-color: rgb(117, 16, 247);
+  background-color: #222;
   padding: 3rem 15%;
   padding-bottom: 1rem;
 }
@@ -344,6 +343,6 @@ code {
   width: 300px;
   text-align: center;
 }
-.hero img{
-  color: w;
-}
+/* .hero img{
+  color: ;
+} */

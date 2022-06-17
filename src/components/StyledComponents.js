@@ -1,27 +1,30 @@
 import styled from "styled-components";
 
 export const StyledBg = styled.div`
-  background-color: ${(props) => props.theme === true? 'white' : 'grey'};
+  background-color: ${(props) => props.theme === true? 'white' : '#222'};
+`;
+export const StyledDivBg = styled.div`
+  background-color: ${(props) => props.theme === true? '#222' : 'whitesmoke'};
 `;
 export const StyledNavLink = styled.a`
   text-decoration: none;
-  color: black;
+  color: ${(props) => props.theme === true? 'black' : 'white'};
 `;
 export const StyledBlackHead = styled.h1`
-  color: black;
+  color: ${(props) => props.theme === true? 'black' : 'white'};
 `;
 export const StyledBlackSub = styled.p`
-  color: black;
+  color: ${(props) => props.theme === true? 'black' : 'white'};
 `;
 export const StyledWhiteHead = styled.h1`
-  color: white;
+  color: ${(props) => props.theme === true? 'white' : 'black'};
 `;
 export const StyledWhiteSub = styled.p`
-  color: white;
+  color: ${(props) => props.theme === true? 'white' : 'black'};
 `;
 export const StyledWhiteHead2 = styled.h2`
-  color: white;
+  color: ${(props) => props.theme === true? 'white' : 'black'};
 `;
 export const StyledBlackHead2 = styled.h2`
-  color: black;
+  color: ${(props) => props.theme === true? 'black' : 'white'};
 `;

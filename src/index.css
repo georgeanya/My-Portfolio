@@ -348,4 +348,18 @@ code {
   .hero{
   width: 90%;
   }
+  .spice_text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    font-family: 'europa';
+  }
+  
+  .spice_text button{
+    margin: 20px;
+    font-family: 'europa';
+  }
+  .button-21{
+    padding: 0.5rem 1rem;
+  }
 }

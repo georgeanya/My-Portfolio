@@ -112,42 +112,42 @@ const Homepage = (props) => {
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image  rounded-5" />
               <div className="middle  rounded-5">
-                <p className="spice_text"> Training Schools </p>
+                <p className="spice_text"> ABC TRANSPORT </p>
                 <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Family Get-Together </p>
+                <p className="spice_text"> Grubbix Cousine </p>
                 <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Birthday parties </p>
+                <p className="spice_text"> GPT-3 </p>
                 <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Outdoor Parties </p>
+                <p className="spice_text"> ALSALF </p>
                 <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Wedding Parties </p>
+                <p className="spice_text"> RoboFriends </p>
                 <button className="button-21">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Holiday Celebrations </p>
+                <p className="spice_text"> Tetris </p>
                 <button className="button-21">visit website</button>
               </div>
             </div>

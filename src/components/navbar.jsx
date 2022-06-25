@@ -14,27 +14,12 @@ const Navbar = (props) => {
         <div className="nav_links">
           <li>
             <StyledNavLink theme={props.theme} href="default.asp">
-              HOME
+              RESUME
             </StyledNavLink>
           </li>
           <li>
             <StyledNavLink theme={props.theme} href="news.asp">
-              ABOUT
-            </StyledNavLink>
-          </li>
-          <li>
-            <StyledNavLink theme={props.theme} href="contact.asp">
-              SKILLS
-            </StyledNavLink>
-          </li>
-          <li>
-            <StyledNavLink theme={props.theme} href="about.asp">
-              PROJECTS
-            </StyledNavLink>
-          </li>
-          <li>
-            <StyledNavLink theme={props.theme} href="news.asp">
-              CONTACT
+              CONTACT ME
             </StyledNavLink>
           </li>
         </div>

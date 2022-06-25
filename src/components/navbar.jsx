@@ -13,12 +13,12 @@ const Navbar = (props) => {
         </div>
         <div className="nav_links">
           <li>
-            <StyledNavLink theme={props.theme} href="default.asp">
+            <StyledNavLink className="nav_links_a" theme={props.theme} href="default.asp">
               RESUME
             </StyledNavLink>
           </li>
           <li>
-            <StyledNavLink theme={props.theme} href="news.asp">
+            <StyledNavLink className="nav_links_a" theme={props.theme} href="news.asp">
               CONTACT ME
             </StyledNavLink>
           </li>
@@ -27,8 +27,8 @@ const Navbar = (props) => {
           {props.theme ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
+              width="20"
+              height="20"
               fill="currentColor"
               className="bi bi-moon"
               viewBox="0 0 16 16"
@@ -39,8 +39,8 @@ const Navbar = (props) => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
+              width="20"
+              height="20"
               fill="white"
               class="bi bi-brightness-high-fill"
               viewBox="0 0 16 16"

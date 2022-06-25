@@ -38,14 +38,16 @@ import gh2 from "../assets/gh2.png";
 const Homepage = (props) => {
   return (
     <StyledBg theme={props.theme}>
-      <div>
-        <StyledBlackHead theme={props.theme} className="pt-5  home_head_text">
-          Front-end Developer
-        </StyledBlackHead>
-        <StyledBlackSub theme={props.theme} className="p-3 home_sub_text">
-          I code beautiful websites, and I love what I do.
-        </StyledBlackSub>
+      <div className="header">
         <img src={george} alt="" width="210px" className="rounded-circle m-5" />
+        <div className="ps-5 ms-5">
+          <StyledBlackHead theme={props.theme} className="pt-5  home_head_text">
+            Front-end Developer
+          </StyledBlackHead>
+          <StyledBlackSub theme={props.theme} className="p-3 home_sub_text">
+            I code beautiful websites, and I love what I do.
+          </StyledBlackSub>
+        </div>
       </div>
       <img
         theme={props.theme}
@@ -84,7 +86,7 @@ const Homepage = (props) => {
           </div>
         </div>
         <h2 className="text-start skill-head">SKILLS</h2>
-        <div className=" skill my-5 flex-wrap justify-content-center rounded-4 p-5">
+        <div className=" skill my-5  d-flex flex-wrap justify-content-center rounded-4 p-5">
           <Skills img={html} text="HTML" />
           <Skills img={css} text="CSS" />
           <Skills img={js} text="JS" />
@@ -92,6 +94,7 @@ const Homepage = (props) => {
           <Skills img={sass} text="SASS" />
           <Skills img={css} text="TAILWIND" />
           <Skills img={react} text="REACT" />
+          <Skills img={react} text="REDUX" />
           <Skills img={wp} text="WORDPRESS" />
           <Skills img={git} text="GIT" />
           <Skills img={github} text="GITHUB" />
@@ -188,7 +191,11 @@ const Homepage = (props) => {
             )}
           </a>
           <a href="mailto:">
-            {props.theme ? <img src={em} alt="" /> : <img className="pt-1" src={em2} alt="" />}
+            {props.theme ? (
+              <img src={em} alt="" />
+            ) : (
+              <img className="pt-1" src={em2} alt="" />
+            )}
           </a>
         </div>
         <StyledWhiteSub theme={props.theme} className="footer-text">

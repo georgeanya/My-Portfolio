@@ -8,6 +8,8 @@ export const StyledDivBg = styled.div`
 `;
 export const StyledNavLink = styled.a`
   text-decoration: none;
+  font-size: 12px;
+  
   color: ${(props) => props.theme === true? 'black' : 'white'};
 `;
 export const StyledBlackHead = styled.h1`

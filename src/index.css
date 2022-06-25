@@ -144,16 +144,39 @@ body {
 .nav_links {
   display: flex;
 }
-.nav_links li {
-  padding: 0px 10px;
+.nav_links li{
+  padding: 8px 15px;
   list-style-type: none;
   display: flex;
   align-items: center;
+  font-size: 18px;
   font-family: 'Europa', sans-serif;
 }
 
+
 .nav_links svg {
   padding: 10px 0px;
+}
+
+.header{
+  padding: 7rem 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.header img{
+  width: 350px;
+}
+.home_head_text {
+  font-family: 'eurostilebold', sans-serif;
+  font-weight: 800;
+  font-size: 85px;
+  text-align: start;
+}
+.home_sub_text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-align: start;
 }
 .page_pad {
   padding: 0% 12%;
@@ -208,25 +231,18 @@ code {
   margin-top: -70px !important;
 
 }
-.home_head_text {
-  font-family: 'eurostilebold', sans-serif;
-  font-weight: 800;
-  font-size: 48px;
-}
-.home_sub_text {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-}
+
 .nav_header_text{
   font-family: 'europa', sans-serif;
   color: #222 ;
   font-weight: 800;
   --bs-nav-link-disabled-color: color: 7510f7;
+  font-size: 24px;
 }
 .nav_moon{
   color: #222 ;
   cursor: pointer;
+  margin-top: -5px;
   
 
 }
@@ -344,7 +360,25 @@ code {
   text-align: center;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 750px){
+  .header{
+    padding: 3rem 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header img{
+    width: 170px;
+  }
+  .home_head_text {
+    font-family: 'eurostilebold', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .home_sub_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
   .hero{
   width: 90%;
   }

@@ -84,7 +84,7 @@ const Homepage = (props) => {
           </div>
         </div>
         <h2 className="text-start skill-head">SKILLS</h2>
-        <div className="d-flex skill my-5 flex-wrap justify-content-center rounded-4 p-5">
+        <div className=" skill my-5 flex-wrap justify-content-center rounded-4 p-5">
           <Skills img={html} text="HTML" />
           <Skills img={css} text="CSS" />
           <Skills img={js} text="JS" />

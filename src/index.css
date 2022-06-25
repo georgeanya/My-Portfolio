@@ -343,6 +343,9 @@ code {
   width: 300px;
   text-align: center;
 }
-/* .hero img{
-  color: ;
-} */
+
+@media screen and (max-width: 650px){
+  .hero{
+  width: 90%;
+  }
+}

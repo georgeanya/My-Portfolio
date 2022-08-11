@@ -33,3 +33,6 @@ export const StyledBlackHead2 = styled.h2`
 export const StyledBlackDiv = styled.div`
   color: ${(props) => props.theme === true? 'black' : 'white'};
 `;
+export const StyledSpiceDiv = styled.div`
+  background-color: ${(props) => props.theme === true? 'white' : '#52574C' };
+`;

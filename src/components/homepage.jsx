@@ -8,7 +8,8 @@ import {
   StyledWhiteHead2,
   StyledBlackHead2,
   StyledWhiteSub,
-  StyledBlackDiv
+  StyledBlackDiv,
+  StyledSpiceDiv
 } from "./StyledComponents";
 
 import Skills from "./skillcomponent";
@@ -88,7 +89,7 @@ const Homepage = (props) => {
           <h2 className="text-start skill-head mt-1">SKILLS</h2>
         </StyledBlackDiv>
         
-        <div className=" skill my-5  d-flex flex-wrap justify-content-center rounded-4 p-5">
+        <StyledSpiceDiv theme={props.theme} className=" skill my-5  d-flex flex-wrap justify-content-center rounded-4 p-5">
           <Skills img={html} text="HTML" />
           <Skills img={css} text="CSS" />
           <Skills img={js} text="JS" />
@@ -97,10 +98,13 @@ const Homepage = (props) => {
           <Skills img={css} text="TAILWIND" />
           <Skills img={react} text="REACT" />
           <Skills img={react} text="REDUX" />
-          <Skills img={wp} text="WORDPRESS" />
+          <Skills img={wp} text="NEXT" />
+          <Skills img={git} text="REACT QUERY"/>
+          <Skills img={github} text="TYPESCRIPT"/>
+          <Skills img={wp} text="MATERIAL UI" />
           <Skills img={git} text="GIT" />
           <Skills img={github} text="GITHUB" />
-        </div>
+        </StyledSpiceDiv>
       </div>
       <div id="project" className="page_pad">
         <StyledBlackDiv theme={props.theme} className="row mb-4">
@@ -113,52 +117,52 @@ const Homepage = (props) => {
           <h2 className="text-start skill-head mt-1">PROJECTS</h2>
         </StyledBlackDiv>
         
-        <div className="d-flex skill my-5 flex-wrap justify-content-center rounded-5 px-3 py-5">
+        <StyledSpiceDiv theme={props.theme} className="d-flex skill my-5 flex-wrap justify-content-center rounded-5 px-3 py-5">
           <div className="spice">
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image  rounded-5" />
               <div className="middle  rounded-5">
                 <p className="spice_text"> ABC TRANSPORT </p>
-                <button className="button-21">visit website</button>
+                <button className="button-21 spice_text">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Grubbix Cousine </p>
-                <button className="button-21">visit website</button>
+                <button className="button-21 spice_text">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> GPT-3 </p>
-                <button className="button-21">visit website</button>
+                <button className="button-21 spice_text">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> ALSALF </p>
-                <button className="button-21">visit website</button>
+                <button className="button-21 spice_text">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> RoboFriends </p>
-                <button className="button-21">visit website</button>
+                <button className="button-21 spice_text">visit website</button>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Tetris </p>
-                <button className="button-21">visit website</button>
+                <button className="button-21 spice_text">visit website</button>
               </div>
             </div>
           </div>
-        </div>
+        </StyledSpiceDiv>
       </div>
       <div className="connect py-5 my-5 p-2">
         <StyledBlackHead2 theme={props.theme}>

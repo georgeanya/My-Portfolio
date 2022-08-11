@@ -268,14 +268,11 @@ code {
 .spice_text{
   font-size: 25px;
   font-weight: 500;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   font-family: 'europa';
 }
 
-.spice_text button{
-  margin: 20px;
-  font-family: 'europa';
-}
 .spice_image{
   position: relative;
   width: 100%;
@@ -365,7 +362,7 @@ code {
 
 @media screen and (max-width: 750px){
   .header{
-    padding: 3rem 5%;
+    padding: 1rem 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -375,7 +372,7 @@ code {
     align-items: center;
   }
   .headertext{
-    margin-left: 0xp;
+    margin: 0px;
   }
   .home_head_text {
     font-family: 'eurostilebold', sans-serif;
@@ -393,17 +390,14 @@ code {
   width: 90%;
   }
   .spice_text{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 0px;
     font-family: 'europa';
   }
   
-  .spice_text button{
-    margin: 20px;
-    font-family: 'europa';
-  }
   .button-21{
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
   }
 }

@@ -8,6 +8,7 @@ import {
   StyledWhiteHead2,
   StyledBlackHead2,
   StyledWhiteSub,
+  StyledBlackDiv
 } from "./StyledComponents";
 
 import Skills from "./skillcomponent";
@@ -39,12 +40,12 @@ const Homepage = (props) => {
   return (
     <StyledBg theme={props.theme}>
       <div className="header">
-        <img src={george} alt="" width="210px" className="rounded-circle m-5" />
-        <div className="ps-5 ms-5">
-          <StyledBlackHead theme={props.theme} className="pt-5  home_head_text">
+        <img src={george} alt="" width="210px" className="rounded-circle" />
+        <div className=" headertext">
+          <StyledBlackHead theme={props.theme} className=" home_head_text">
             Front-end Developer
           </StyledBlackHead>
-          <StyledBlackSub theme={props.theme} className="p-3 home_sub_text">
+          <StyledBlackSub theme={props.theme} className="home_sub_text">
             I code beautiful websites, and I love what I do.
           </StyledBlackSub>
         </div>
@@ -77,15 +78,16 @@ const Homepage = (props) => {
         </div>
       </StyledDivBg>
       <div id="about" className="page_pad py-5">
-        <div className="row mb-4">
+        <StyledBlackDiv  theme={props.theme} className="row mb-4">
           <div className="col-1">
             <hr width="60px" />
           </div>
           <div className="col-11">
             <p className="text-start small-p">CHECK OUT MY</p>
           </div>
-        </div>
-        <h2 className="text-start skill-head">SKILLS</h2>
+          <h2 className="text-start skill-head mt-1">SKILLS</h2>
+        </StyledBlackDiv>
+        
         <div className=" skill my-5  d-flex flex-wrap justify-content-center rounded-4 p-5">
           <Skills img={html} text="HTML" />
           <Skills img={css} text="CSS" />
@@ -101,15 +103,16 @@ const Homepage = (props) => {
         </div>
       </div>
       <div id="project" className="page_pad">
-        <div className="row mb-4">
+        <StyledBlackDiv theme={props.theme} className="row mb-4">
           <div className="col-1">
             <hr width="60px" />
           </div>
           <div className="col-11">
             <p className="text-start small-p">TAKE A LOOK AT MY</p>
           </div>
-        </div>
-        <h2 className="text-start skill-head">PROJECTS</h2>
+          <h2 className="text-start skill-head mt-1">PROJECTS</h2>
+        </StyledBlackDiv>
+        
         <div className="d-flex skill my-5 flex-wrap justify-content-center rounded-5 px-3 py-5">
           <div className="spice">
             <div className="spice_card rounded-5">

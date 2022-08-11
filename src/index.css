@@ -166,6 +166,9 @@ body {
 .header img{
   width: 350px;
 }
+.headertext{
+  margin-left: 180px;
+}
 .home_head_text {
   font-family: 'eurostilebold', sans-serif;
   font-weight: 800;
@@ -362,22 +365,29 @@ code {
 
 @media screen and (max-width: 750px){
   .header{
-    padding: 3rem 10%;
+    padding: 3rem 5%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .header img{
     width: 170px;
+    align-items: center;
+  }
+  .headertext{
+    margin-left: 0xp;
   }
   .home_head_text {
     font-family: 'eurostilebold', sans-serif;
     font-weight: 800;
     font-size: 50px;
+    text-align: center;
   }
   .home_sub_text {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
+    text-align: center;
   }
   .hero{
   width: 90%;

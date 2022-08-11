@@ -9,7 +9,7 @@ import {
   StyledBlackHead2,
   StyledWhiteSub,
   StyledBlackDiv,
-  StyledSpiceDiv
+  StyledSpiceDiv,
 } from "./StyledComponents";
 
 import Skills from "./skillcomponent";
@@ -74,12 +74,16 @@ const Homepage = (props) => {
             technologies. Aiming to leverage my skills to successfully fill the
             front-end engineering role at your company.
           </StyledWhiteSub>
-          <button className="button-21">Resume</button>
-          <button className="button-21">Contact Me</button>
+          <a href="https://docs.google.com/document/d/1wzWm_HsI3HvDMnZkNDUEv5msGesSnlyF89uoHNMBR34/edit?usp=sharing">
+            <button className="button-21">Resume</button>
+          </a>
+          <a href="mailto:georgeanya4real@gmail.com">
+            <button className="button-21">Contact Me</button>
+          </a>
         </div>
       </StyledDivBg>
       <div id="about" className="page_pad py-5">
-        <StyledBlackDiv  theme={props.theme} className="row mb-4">
+        <StyledBlackDiv theme={props.theme} className="row mb-4">
           <div className="col-1">
             <hr width="60px" />
           </div>
@@ -88,22 +92,30 @@ const Homepage = (props) => {
           </div>
           <h2 className="text-start skill-head mt-1">SKILLS</h2>
         </StyledBlackDiv>
-        
-        <StyledSpiceDiv theme={props.theme} className=" skill my-5  d-flex flex-wrap justify-content-center rounded-4 p-5">
-          <Skills img={html} text="HTML" />
-          <Skills img={css} text="CSS" />
-          <Skills img={js} text="JS" />
-          <Skills img={boot} text="BOOTSTRAP" className="mt-3" />
-          <Skills img={sass} text="SASS" />
-          <Skills img={css} text="TAILWIND" />
-          <Skills img={react} text="REACT" />
-          <Skills img={react} text="REDUX" />
-          <Skills img={wp} text="NEXT" />
-          <Skills img={git} text="REACT QUERY"/>
-          <Skills img={github} text="TYPESCRIPT"/>
-          <Skills img={wp} text="MATERIAL UI" />
-          <Skills img={git} text="GIT" />
-          <Skills img={github} text="GITHUB" />
+
+        <StyledSpiceDiv
+          theme={props.theme}
+          className=" skill my-5  d-flex flex-wrap justify-content-center rounded-4 p-5"
+        >
+          <Skills theme={props.theme} img={html} text="HTML" />
+          <Skills theme={props.theme} img={css} text="CSS" />
+          <Skills theme={props.theme} img={js} text="JS" />
+          <Skills
+            theme={props.theme}
+            img={boot}
+            text="BOOTSTRAP"
+            className="mt-3"
+          />
+          <Skills theme={props.theme} img={sass} text="SASS" />
+          <Skills theme={props.theme} img={css} text="TAILWIND" />
+          <Skills theme={props.theme} img={react} text="REACT" />
+          <Skills theme={props.theme} img={react} text="REDUX" />
+          <Skills theme={props.theme} img={wp} text="NEXT" />
+          <Skills theme={props.theme} img={git} text="REACT QUERY" />
+          <Skills theme={props.theme} img={github} text="TYPESCRIPT" />
+          <Skills theme={props.theme} img={wp} text="MATERIAL UI" />
+          <Skills theme={props.theme} img={git} text="GIT" />
+          <Skills theme={props.theme} img={github} text="GITHUB" />
         </StyledSpiceDiv>
       </div>
       <div id="project" className="page_pad">
@@ -116,49 +128,76 @@ const Homepage = (props) => {
           </div>
           <h2 className="text-start skill-head mt-1">PROJECTS</h2>
         </StyledBlackDiv>
-        
-        <StyledSpiceDiv theme={props.theme} className="d-flex skill my-5 flex-wrap justify-content-center rounded-5 px-3 py-5">
+
+        <StyledSpiceDiv
+          theme={props.theme}
+          className="d-flex skill my-5 flex-wrap justify-content-center rounded-5 px-3 py-5"
+        >
           <div className="spice">
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image  rounded-5" />
               <div className="middle  rounded-5">
                 <p className="spice_text"> ABC TRANSPORT </p>
-                <button className="button-21 spice_text">visit website</button>
+                <a href="https://abc-transport.netlify.app/">
+                  <button className="button-21 spice_text">
+                    visit website
+                  </button>
+                </a>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Grubbix Cousine </p>
-                <button className="button-21 spice_text">visit website</button>
+                <p className="spice_text"> Devfinder </p>
+                <a href="https://my-dev-github-finder.netlify.app/">
+                  <button className="button-21 spice_text">
+                    visit website
+                  </button>
+                </a>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> GPT-3 </p>
-                <button className="button-21 spice_text">visit website</button>
+                <p className="spice_text"> Huron </p>
+                <a href="https://huroninntegrated.netlify.app/">
+                  <button className="button-21 spice_text">
+                    visit website
+                  </button>
+                </a>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> ALSALF </p>
-                <button className="button-21 spice_text">visit website</button>
+                <a href="https://alsalf.netlify.app">
+                  <button className="button-21 spice_text">
+                    visit website
+                  </button>
+                </a>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={gpt3} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> RoboFriends </p>
-                <button className="button-21 spice_text">visit website</button>
+                <a href="https://myrobofriends.netlify.app">
+                  <button className="button-21 spice_text">
+                    visit website
+                  </button>
+                </a>
               </div>
             </div>
             <div className="spice_card rounded-5">
               <img src={abc} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
-                <p className="spice_text"> Tetris </p>
-                <button className="button-21 spice_text">visit website</button>
+                <p className="spice_text"> Grubbix </p>
+                <a href="https://grubbix.netlify.app">
+                  <button className="button-21 spice_text">
+                    visit website
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -166,13 +205,14 @@ const Homepage = (props) => {
       </div>
       <div className="connect py-5 my-5 p-2">
         <StyledBlackHead2 theme={props.theme}>
-          Interested in collaborating or investing?
+          Interested in collaborating?
         </StyledBlackHead2>
         <StyledBlackSub theme={props.theme}>
-          I’m always open to discussing product design work or partnership
-          opportunities.
+          I’m always open to discussing work or partnership opportunities.
         </StyledBlackSub>
-        <button className="button-80">Start a conversation</button>
+        <a href="https://twitter.com/thegeorgeanya">
+          <button className="button-80">Start a conversation</button>
+        </a>
       </div>
       <StyledDivBg theme={props.theme} className="footer">
         <div>

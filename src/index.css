@@ -8,7 +8,9 @@ body {
 @import url(//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa);
 
 @font-face {font-family: "Europa"; src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot"); src: url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.woff") format("woff"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.svg#Europa") format("svg"); }
-
+a{
+  text-decoration: none;
+}
 .button-80 {
   background: #fff;
   backface-visibility: hidden;
@@ -187,10 +189,12 @@ body {
 .card_style {
   width: 130px;
   padding: 0px;
+  background-color: #05103A;
 }
 .card-body p {
   font-size: 13px;
   margin-top: 10px;
+  color: white;
   font-family: 'Poppins', sans-serif;
 }
 .skill {
@@ -243,7 +247,7 @@ code {
   font-size: 24px;
 }
 .nav_moon{
-  color: #222 ;
+  color: #05103A ;
   cursor: pointer;
   margin-top: -5px;
   
@@ -294,7 +298,7 @@ code {
   box-pack: center;
   justify-content: center;
   margin: 1rem;
-  background-color: #222;
+  background-color: #05103A;
   max-width: 300px;
   
 }
@@ -310,7 +314,9 @@ code {
   text-align: center;
   
   color: white;
-  background-color: #222;visibility: none; opacity: 0;
+  background-color: #05103A;
+  visibility: none;
+  opacity: 0;
 }
 
 .spice_card:hover {

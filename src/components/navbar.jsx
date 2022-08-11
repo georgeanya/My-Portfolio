@@ -13,12 +13,20 @@ const Navbar = (props) => {
         </div>
         <div className="nav_links">
           <li>
-            <StyledNavLink className="nav_links_a" theme={props.theme} href="default.asp">
+            <StyledNavLink
+              className="nav_links_a"
+              theme={props.theme}
+              href="https://docs.google.com/document/d/1wzWm_HsI3HvDMnZkNDUEv5msGesSnlyF89uoHNMBR34/edit?usp=sharing"
+            >
               RESUME
             </StyledNavLink>
           </li>
           <li>
-            <StyledNavLink className="nav_links_a" theme={props.theme} href="news.asp">
+            <StyledNavLink
+              className="nav_links_a"
+              theme={props.theme}
+              href="mailto:georgeanya4real@gmail.com"
+            >
               CONTACT ME
             </StyledNavLink>
           </li>

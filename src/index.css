@@ -113,11 +113,9 @@ a{
 .button-21:hover {
   background-position: -20px -20px;
 }
-
 .button-21:focus:not(:active) {
   box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
 }
-
 @font-face {
   font-family: 'eurostilebold';
   src: url(./assets/euro/eurostilebold-webfont.woff2) format('woff2'),
@@ -126,7 +124,6 @@ a{
   font-style: normal;
 
 }
-
 @font-face {
   font-family: 'eurostylenormal';
   src: url(./assets/euro/eurostylenormal-webfont.woff2) format('woff2'),
@@ -135,14 +132,12 @@ a{
   font-style: normal;
 
 }
-
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 20px 40px;
 }
-
 .nav_links {
   display: flex;
 }
@@ -154,12 +149,9 @@ a{
   font-size: 18px;
   font-family: 'Europa', sans-serif;
 }
-
-
 .nav_links svg {
   padding: 10px 0px;
 }
-
 .header{
   padding: 7rem 15%;
   display: flex;
@@ -227,7 +219,7 @@ code {
 }
 .about-me {
   background-color: #222;
-  padding: 9rem 15%;
+  padding: 8rem 15%;
 }
 .about-me-text {
   color: white;
@@ -237,9 +229,7 @@ code {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -70px !important;
-
 }
-
 .nav_header_text{
   font-family: 'europa', sans-serif;
   color: #222 ;
@@ -251,8 +241,6 @@ code {
   color: #05103A ;
   cursor: pointer;
   margin-top: -5px;
-  
-
 }
 .about-me-content-text{
   font-weight: 800;
@@ -269,7 +257,6 @@ code {
 .about-me-text button{
   margin: 1rem;
 }
-
 .spice_text{
   font-size: 25px;
   font-weight: 500;
@@ -277,15 +264,10 @@ code {
   margin-bottom: 0px;
   font-family: 'europa';
 }
-
 .spice_image{
   position: relative;
   width: 100%;
 }
-
-
-
-
 .spice{
   display: flex;
   flex-wrap: wrap;
@@ -395,6 +377,12 @@ code {
   }
   .hero{
   width: 90%;
+  }
+  .about-me{
+    padding: 4rem 15%;
+  }
+  .about-me-text p{
+    font-size: 18px;
   }
   .spice_text{
     font-size: 16px;

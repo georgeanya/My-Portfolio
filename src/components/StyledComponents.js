@@ -28,7 +28,7 @@ export const StyledWhiteHead2 = styled.h2`
   color: ${(props) => props.theme === true? 'white' : 'white'};
 `;
 export const StyledBlackHead2 = styled.h2`
-  color: ${(props) => props.theme === true? 'black' : 'white'};
+  color: ${(props) => props.theme === true? '#05103A' : 'white'};
 `;
 export const StyledBlackDiv = styled.div`
   color: ${(props) => props.theme === true? 'black' : 'white'};

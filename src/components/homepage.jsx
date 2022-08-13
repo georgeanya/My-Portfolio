@@ -14,8 +14,11 @@ import {
 
 import Skills from "./skillcomponent";
 import grubix from "../assets/grubbix.png";
+import huron from "../assets/huron.png";
+import dev from "../assets/dev.png";
+import robo from "../assets/robo.png";
+import alsalf from "../assets/alsalf.png";
 import abc from "../assets/abc.png";
-import gpt3 from "../assets/gpt3.png";
 import george from "../assets/avatar.png";
 import hero from "../assets/hero.svg";
 import hero1 from "../assets/hero1.svg";
@@ -151,7 +154,7 @@ const Homepage = (props) => {
               </div>
             </div>
             <div className="spice_card rounded-5">
-              <img src={grubix} alt="" className="spice_image rounded-5" />
+              <img src={dev} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Devfinder </p>
                 <a href="https://my-dev-github-finder.netlify.app/">
@@ -162,7 +165,7 @@ const Homepage = (props) => {
               </div>
             </div>
             <div className="spice_card rounded-5">
-              <img src={gpt3} alt="" className="spice_image rounded-5" />
+              <img src={huron} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Huron </p>
                 <a href="https://huroninntegrated.netlify.app/">
@@ -173,7 +176,7 @@ const Homepage = (props) => {
               </div>
             </div>
             <div className="spice_card rounded-5">
-              <img src={grubix} alt="" className="spice_image rounded-5" />
+              <img src={alsalf} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> ALSALF </p>
                 <a href="https://alsalf.netlify.app">
@@ -184,7 +187,7 @@ const Homepage = (props) => {
               </div>
             </div>
             <div className="spice_card rounded-5">
-              <img src={gpt3} alt="" className="spice_image rounded-5" />
+              <img src={robo} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> RoboFriends </p>
                 <a href="https://myrobofriends.netlify.app">
@@ -195,7 +198,7 @@ const Homepage = (props) => {
               </div>
             </div>
             <div className="spice_card rounded-5">
-              <img src={abc} alt="" className="spice_image rounded-5" />
+              <img src={grubix} alt="" className="spice_image rounded-5" />
               <div className="middle rounded-5">
                 <p className="spice_text"> Grubbix </p>
                 <a href="https://grubbix.netlify.app">
@@ -230,24 +233,16 @@ const Homepage = (props) => {
         </div>
         <div className="socials">
           <a href="mailto:">
-            {props.theme ? <img src={gh} alt="" /> : <img src={gh2} alt="" />}
+          <img src={gh} alt="" />
           </a>
           <a href="mailto:">
-            {props.theme ? <img src={tw} alt="" /> : <img src={tw2} alt="" />}
+          <img src={tw} alt="" />
           </a>
           <a href="mailto:">
-            {props.theme ? (
-              <img src={lkin} alt="" />
-            ) : (
-              <img src={lkin2} alt="" />
-            )}
+          <img src={lkin} alt="" />
           </a>
           <a href="mailto:">
-            {props.theme ? (
-              <img src={em} alt="" />
-            ) : (
-              <img className="pt-1" src={em2} alt="" />
-            )}
+          <img src={em} alt="" />
           </a>
         </div>
         <StyledWhiteSub theme={props.theme} className="footer-text">

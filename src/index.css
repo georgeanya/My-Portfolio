@@ -260,13 +260,14 @@ code {
 .spice_text{
   font-size: 25px;
   font-weight: 500;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 0px;
   font-family: 'europa';
 }
 .spice_image{
   position: relative;
   width: 100%;
+  height: 100%;
 }
 .spice{
   display: flex;
@@ -387,7 +388,7 @@ code {
   .spice_text{
     font-size: 16px;
     font-weight: 500;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 0px;
     font-family: 'europa';
   }

@@ -16,18 +16,23 @@ import Skills from "./skillcomponent";
 import grubix from "../assets/grubbix.png";
 import abc from "../assets/abc.png";
 import gpt3 from "../assets/gpt3.png";
-import george from "../assets/avatar.svg";
+import george from "../assets/avatar.png";
 import hero from "../assets/hero.svg";
 import hero1 from "../assets/hero1.svg";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import js from "../assets/js.png";
-import wp from "../assets/wp.png";
-import sass from "../assets/sass.png";
-import react from "../assets/react.png";
-import boot from "../assets/boot.png";
-import git from "../assets/git.png";
-import github from "../assets/github.png";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import js from "../assets/js.svg";
+import ts from "../assets/ts.svg";
+import mui from "../assets/mui.svg";
+import sass from "../assets/sass.svg";
+import react from "../assets/react.svg";
+import redux from "../assets/redux.svg";
+import tailwind from "../assets/tailwind.svg";
+import next from "../assets/next.svg";
+import reactq from "../assets/reactq.svg";
+import boot from "../assets/boot.svg";
+import git from "../assets/git.svg";
+import github from "../assets/github.svg";
 import lkin from "../assets/lkin.png";
 import em from "../assets/em.png";
 import tw from "../assets/tw.png";
@@ -107,13 +112,13 @@ const Homepage = (props) => {
             className="mt-3"
           />
           <Skills theme={props.theme} img={sass} text="SASS" />
-          <Skills theme={props.theme} img={css} text="TAILWIND" />
+          <Skills theme={props.theme} img={tailwind} text="TAILWIND" />
           <Skills theme={props.theme} img={react} text="REACT" />
-          <Skills theme={props.theme} img={react} text="REDUX" />
-          <Skills theme={props.theme} img={wp} text="NEXT" />
-          <Skills theme={props.theme} img={git} text="REACT QUERY" />
-          <Skills theme={props.theme} img={github} text="TYPESCRIPT" />
-          <Skills theme={props.theme} img={wp} text="MATERIAL UI" />
+          <Skills theme={props.theme} img={redux} text="REDUX" />
+          <Skills theme={props.theme} img={next} text="NEXT" />
+          <Skills theme={props.theme} img={reactq} text="REACT QUERY" />
+          <Skills theme={props.theme} img={ts} text="TYPESCRIPT" />
+          <Skills theme={props.theme} img={mui} text="MATERIAL UI" />
           <Skills theme={props.theme} img={git} text="GIT" />
           <Skills theme={props.theme} img={github} text="GITHUB" />
         </StyledSpiceDiv>

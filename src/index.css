@@ -188,13 +188,13 @@ a{
 }
 .card_style {
   width: 130px;
-  padding: 0px;
+  padding-top: 15px;
   background-color: #05103A;
+  display: flex;
 }
 .card-body p {
   font-size: 13px;
   margin-top: 10px;
-  color: white;
   font-family: 'Poppins', sans-serif;
 }
 .skill {
@@ -206,6 +206,7 @@ a{
 }
 .skill_img{
   width: 40%;
+  height: 40%;
   display: flex;
   align-self: center;
   padding-top: 10px;

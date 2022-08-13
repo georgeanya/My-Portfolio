@@ -16,7 +16,7 @@ export const StyledBlackHead = styled.h1`
   color: ${(props) => props.theme === true? 'black' : 'white'};
 `;
 export const StyledBlackSub = styled.p`
-  color: ${(props) => props.theme === true? 'black' : 'white'};
+  color: ${(props) => props.theme === true? '#05103A' : 'white'};
 `;
 export const StyledWhiteHead = styled.h1`
   color: ${(props) => props.theme === true? 'white' : 'white'};

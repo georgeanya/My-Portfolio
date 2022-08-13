@@ -155,18 +155,18 @@ a{
 .header{
   padding: 7rem 15%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .header img{
   width: 350px;
 }
 .headertext{
-  margin-left: 180px;
+  margin-left: 160px;
 }
 .home_head_text {
   font-family: 'eurostilebold', sans-serif;
   font-weight: 800;
-  font-size: 85px;
+  font-size: 6rem;
   text-align: start;
 }
 .home_sub_text {
@@ -349,8 +349,32 @@ code {
   width: 300px;
   text-align: center;
 }
-
-@media screen and (max-width: 750px){
+@media screen and (max-width: 850px){
+  .home_head_text{
+    font-size: 5rem;
+    text-align: center;
+  }
+  .home_sub_text{
+    text-align: center;
+  }
+  .header{
+    padding: 1rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .headertext{
+    text-align: center;
+    margin-left: 0px;
+  }
+  .about-me{
+    padding: 6rem 15%;
+  }
+  .about-me-text p{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 650px){
   .header{
     padding: 1rem 5%;
     display: flex;
@@ -380,7 +404,7 @@ code {
   width: 90%;
   }
   .about-me{
-    padding: 4rem 15%;
+    padding: 5rem 15%;
   }
   .about-me-text p{
     font-size: 18px;

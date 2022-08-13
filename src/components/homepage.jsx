@@ -40,10 +40,10 @@ import lkin from "../assets/lkin.png";
 import em from "../assets/em.png";
 import tw from "../assets/tw.png";
 import gh from "../assets/gh.png";
-import lkin2 from "../assets/lkin2.png";
-import em2 from "../assets/em2.png";
-import tw2 from "../assets/tw2.png";
-import gh2 from "../assets/gh2.png";
+// import lkin2 from "../assets/lkin2.png";
+// import em2 from "../assets/em2.png";
+// import tw2 from "../assets/tw2.png";
+// import gh2 from "../assets/gh2.png";
 
 const Homepage = (props) => {
   return (
@@ -232,16 +232,16 @@ const Homepage = (props) => {
           </StyledWhiteSub>
         </div>
         <div className="socials">
-          <a href="mailto:">
+          <a href="https://github.com/georgeanya">
           <img src={gh} alt="" />
           </a>
-          <a href="mailto:">
+          <a href="https://twitter.com/thegeorgeanya">
           <img src={tw} alt="" />
           </a>
-          <a href="mailto:">
+          <a href="https://www.linkedin.com/in/george-anya-7b7b88206">
           <img src={lkin} alt="" />
           </a>
-          <a href="mailto:">
+          <a href="mailto:georgeanya4real@gmail.com">
           <img src={em} alt="" />
           </a>
         </div>
